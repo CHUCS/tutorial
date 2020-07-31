@@ -1,0 +1,16 @@
+.demo {
+    width: 160px;
+    margin: 0px auto;
+    animation: Updown 2s infinite alternate;
+    opacity: 0;
+}
+@keyframes Updown {
+    from {
+        margin-top: 20px;
+    }
+    to {
+        margin-top: 10px;
+        opacity: 1;
+    }
+}
+
